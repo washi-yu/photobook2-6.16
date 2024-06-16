@@ -1,0 +1,89 @@
+<!-- レシポンシブデザインでのindexの折り返し方 -->
+
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="photobook2">
+  <link rel="stylesheet" href="style.css">
+  <title>photobook2</title>
+</head>
+<body>
+  <header>
+    <div id="logo">
+      <img src="img/logo.svg" alt="ロゴ">
+    </div>
+  </header>
+  <div  id="main-visual">
+    <img src="img/mainvisual.jpg" alt="メインビジュアル">
+  </div>
+  <section id="index">
+    <div>
+      <h2 class="c-content-title">INDEX</h2>
+      <!-- divいる？↓ -->
+      <div class="index-text">
+        <ol>
+          <li>タイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
+          <li>タイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
+          <li>タイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
+          <li>タイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
+          <li>タイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
+       
+        </ol>
+      </div>
+    </div>
+  </section>
+  <section id="photo-content">
+    <!-- flex wrap -->
+    <div>
+      <ul>
+        <li>
+          <img src="img/photo1.jpg" alt="green">
+        </li>
+        <li>
+          <img src="img/photo2.jpg" alt="bule">
+        </li>
+        <li>
+          <img src="img/photo3.jpg" alt="red">
+        </li>
+        <li>
+          <img src="img/photo4.jpg" alt="gray">
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section id="detail">
+    <div>
+      <h2 class="c-content-title">DETAIL</h2>
+      <!-- flex wrap -->
+        <div>
+          <div id="detail-left">
+            <dl>
+              <dt>著者:</dt>
+              <dd>タイトルタイトルタイトル</dd>
+              <dt>出版社:</dt>
+              <dd>タイトルタイトルタイトル</dd>
+              <dt>発行年:</dt>
+              <dd>2021年１月1日</dd>
+            </dl>
+          </div>
+          <div id="detail-right">
+            <div>
+              <p>テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            </div>
+            <div>
+              <p>テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            </div>
+            <a href="#" class="detail-a">オンラインストアで見る</a>
+          </div>
+        </div>
+    </div>
+  </section>
+  <footer>
+    <small><p>&copy;2021 PHOTO BOOK 2</p></small>
+  </footer>
+</body>
+
+</html>
